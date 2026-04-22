@@ -1,0 +1,343 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav {
+    display: flex;
+    background-color: #1f2937;
+    font-size: 18px;
+    text-align: center;
+}
+
+nav a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+    margin: 5px;
+    padding: 10px;
+}
+
+
+.logo_and_foto {
+    width: 50px;
+    height: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+
+.under_nav {
+    display: flex;
+    background-color: #1f2937; 
+    padding: 135px 215px 135px 215px;
+
+     
+}
+
+.under_nav h1 {
+    font-size: 48px;
+    color: #f9faf8; 
+    font-weight: 900;
+    padding: 0px 100px 10px 0px;
+}
+
+.under_nav p {
+    font-size: 18px;
+    color: #e5e7eb; 
+    padding: 30px 170px 30px 0px;
+}
+
+.under_nav button {
+    font-size: 18px;
+    color: #e5e7eb; 
+    background-color: #3882f6;
+    padding: 10px 20px 10px 20px;
+    margin-right: auto;
+    border-radius: 10px;
+
+
+}
+
+.text_under_nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.Picture_on_under_nav {
+    width: 500px;
+    height: auto;
+}
+
+.adventures {
+    display: flex;
+    padding: 150px;
+}
+
+
+
+
+#some_adventures {
+    text-align: center;
+    padding: 25px;
+    background-color: white;
+}
+
+.random_information {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 25px 400px;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.pictures {
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;     
+    flex: 1;
+    text-align: center;     
+}
+
+.pictures img {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+    border: solid 3px black;
+    margin-bottom: 10px;    
+}
+
+
+
+.phrase {
+    background-color: #e5e7eb;
+    align-items: center;
+    align-content: center;
+    padding: 125px 200px
+}
+
+.phrase {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
+
+
+#author_of_the_phrase {
+    text-align: right;
+    font-weight: 900;
+    font-style: normal;
+    padding: 30px;
+    font-size: 30px;
+    padding: 80px;
+}
+
+
+
+
+.background_collection {
+    background-color: #3882f6;
+    width: 60%;        
+    height: 80%;
+    margin: 80px auto;
+    border-radius: 10px;
+}
+
+.call_to_action {
+    background-color: #3882f6;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 50px 70px;
+    gap: 100px;
+    
+}
+
+#Subscribe_button_phrase {
+    color: white;
+    font-weight: 600;
+    gap: 15px
+    
+}
+
+#Subscribe_button_phrase_2 {
+    color: white;
+    gap: 100px;
+}
+
+
+#Button_youtube {
+    color: white;
+    background-color: #3882f6;
+    padding: 1px 25px;
+    border-radius: 8px;
+    border: solid 2px white;
+    margin-left: auto; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.underfoot {
+    color: white;
+    background-color: #1f2937;
+    text-align: center;
+    padding: 15px;
+    
+}
+
+
+
+
+
+
+
+/*
+.Marco_and_chacaltaya {
+    width: 350px;
+    height: auto;
+}
+
+.second_div_nav {
+    margin-left: 20px;
+    gap: 50px;
+}
+
+.pictures_random_information {
+    width: 100px;
+    height: auto;
+}
+
+
+
+nav {
+    color: #f9faf8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+nav a {
+    color: #f9faf8;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+#Title_under_nav {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+#text_under_title_under_nav {
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+#some_adventures {
+    width: 100%;
+}
+
+
+#Button_under_nav {
+    color:#f9faf8;
+    background-color: #3882f6;
+
+}
+
+
+.random_information {
+    background-color: #f9faf8;
+    color: 1f2937;
+    font-size: 18px; 
+    
+}
+
+.random_information h2 {
+    background-color: #f9faf8;
+    font-size: 36px; 
+    color: 1f2937;
+    font-weight: 900;
+}
+
+
+.adventures{
+    background-color: #f9faf8;
+    display: flex;
+}
+
+
+.adventure_1 {
+    display: flex;
+    flex-direction: column; /* ← esto hace vertical */
+
+
+/*
+.random_information p {
+    background-color: #f9faf8; 
+}
+
+
+
+.phrase {
+    background-color: #e5e7eb;
+}
+
+.phrase p {
+    background-color: #e5e7eb;
+}
+
+#author_of_the_phrase {
+    font-size: 15px; 
+    color: 1f2937;
+    font-weight: 900;
+}
+
+
+.call_to_action {
+    background-color: #f9faf8;    
+}
+.call_to_action p {
+    background-color: #f9faf8;    
+}
+
+#Subscribe_button_phrase {
+    background-color: #3882f6;
+    color: white;
+}
+
+#Subscribe_button_phrase_2 {
+    background-color: #3882f6;
+    color: white;
+}
+
+#Button_youtube{
+    background-color: #3882f6;
+    font-size: 18px;
+    color: white;
+    border: 2px solid white;
+}
+
+/*
+
